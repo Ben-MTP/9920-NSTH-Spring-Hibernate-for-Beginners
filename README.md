@@ -13,4 +13,10 @@ session: 2. Code Demo - Rough Prototype Part 1
 + Thay vì sử tạo mới một class implemments interface theo cách thông thường thì việc tạo mới đơn giản hơn do có tool eclipse
 + Một class chứ những method cần Override lại của interface đó.
 
-=====   =====
+=====4. Spring Inversion of Control - Overview=====
++ Giải thích nguyên lý hoạt động của những thành phần trong cái Spring Inversion of Control
++ Cái gì gọi cái gì?
++ Trả về như thế nào?
+ApplicationContext là gì?
+Bean id là gì?
+=====    =====
