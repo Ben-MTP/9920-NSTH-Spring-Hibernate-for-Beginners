@@ -7,7 +7,25 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 	
+	
+	<!-->bean id="myLoggerConfig" class="com.manhkm.rough01.MyLoggerConfig" init-method="initLogger">
+    	<property name="rootLoggerLevel" value="FINE" />
+    	<property name="printedLoggerLevel" value="FINE"/>
+    </bean-->
+		<bean id="myForture"
+		class="com.manhkm.rough01.HappyFortuneService">
+	</bean>
+	
 	<bean id="myCoach"
 		class="com.manhkm.rough01.BaseballCoach">
+		
+		<!-- setup constructor injection -->
+		<constructor-arg ref="myForture" />
 	</bean>
+	
+		<bean id="mySwim"
+		class="com.manhkm.rough01.Swimming">
+	</bean>
+	
+
 </beans>
