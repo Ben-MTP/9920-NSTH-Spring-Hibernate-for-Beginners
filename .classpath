@@ -11,7 +11,7 @@
 	<classpathentry kind="lib" path="lib/spring-beans-5.2.7.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-beans-5.2.7.RELEASE-javadoc.jar"/>
 	<classpathentry kind="lib" path="lib/spring-beans-5.2.7.RELEASE-sources.jar"/>
-	<classpathentry kind="lib" path="lib/spring-context-5.2.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-5.2.7.RELEASE.jar" sourcepath="C:/Users/ManhKM/.m2/repository/org/springframework/spring-context/5.2.7.RELEASE/spring-context-5.2.7.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="lib/spring-context-5.2.7.RELEASE-javadoc.jar"/>
 	<classpathentry kind="lib" path="lib/spring-context-5.2.7.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="lib/spring-context-indexer-5.2.7.RELEASE.jar"/>
